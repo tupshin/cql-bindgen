@@ -29,7 +29,6 @@ pub use cassandra::CassValueType_::*;
 pub use cassandra::CassCollectionType_::{CASS_COLLECTION_TYPE_SET, CASS_COLLECTION_TYPE_LIST, CASS_COLLECTION_TYPE_MAP};
 
 // pub use cassandra::ffi_util::raw2utf8;
-pub use cassandra::*;
 
 mod cassandra;
 pub mod ffi_util;
